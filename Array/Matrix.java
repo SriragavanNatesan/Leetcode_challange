@@ -26,6 +26,7 @@ class Matrix{
         //https://leetcode.com/problems/set-matrix-zeroes/
         //Apprach 1
         // Using additional space
+        // We can use hashmap or hashset based approach
         int m = matrix.length;
         int n = (matrix.length != 0 ) ? matrix[0].length : 0;
         boolean[] col = new boolean[m];
